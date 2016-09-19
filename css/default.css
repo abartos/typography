@@ -1,0 +1,96 @@
+/* Embedded Fonts */
+
+
+
+
+
+
+/* Container Items */
+
+html,body{
+	height: 100%
+
+}
+
+.italic {
+	font-style: italic;
+}
+
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url("../images/cover.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	margin-top: 30px;
+
+}
+
+#container {
+
+}
+
+
+
+/* Paragraph Styles */
+
+@font-face {
+	font-family: title;
+	src:url(../fonts/KozGoPro-Heavy.otf);
+}
+
+.title {
+	font-family: title;
+	font-size: 150px;
+	color: black;
+	text-align: right;
+	margin-top: 50px;
+	line-height: 1.1em;
+
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+
+}
+
+.title:hover{
+	font-size: 65px;
+	color: black;
+
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+}
+
+
+
+@font-face {
+	font-family: author;
+	src:url(../fonts/KozGoPro-Light.otf);
+}
+
+.author {
+	font-family: author;
+	font-size: 35px;
+	line-height: 2em;
+	text-align: right;
+	margin-right: 20px;
+	margin-left: 5px;
+
+}
+
+@font-face {
+	font-family: paragraph;
+	src:url(../fonts/Futura.ttc);
+}
+
+#container {
+
+}
+
+
+.text {
+width: 1250px;
+font-family: paragraph;
+line-height: 1.5em;
+text-align: left;
+margin-top: 20px;
+}
